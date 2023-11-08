@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Server Clone</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <style>
+        .size{
+            font-size: 20px;
+        }
+        .size-2{
+            font-size: 18px;
+        }
+        .size-3{
+            font-size: 27px;
+        }
+        .pos{
+            left: 350px;
+            bottom: 250px;
+        }
+        .small{
+            font-size: 13px;
+        }
+        .ht{
+            height: 1px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="w-full bg-[#3838ff] font-serif h-[50px] overflow-x-hidden">
+        <div class="flex flex-row bg-[#3838ff] w-11/12 max-w-[1200px] mx-auto justify-between items-center h-full">
+            <!-- Logo -->
+            <div class="">
+                <img src="./images/logo.svg" alt="" class="cursor-pointer">
+            </div>
+
+            <!-- Navbar Items -->
+            <ul class="flex flex-row justify-around gap-10 text-white">
+                <li class="font-semibold text-base cursor-pointer hover:underline">Download</li>
+                <li class="font-semibold text-base cursor-pointer hover:underline">Nitro</li>
+                <li class="font-semibold text-base cursor-pointer hover:underline">Discover</li>
+                <li class="font-semibold text-base cursor-pointer hover:underline">Safety</li>
+                <li class="font-semibold text-base cursor-pointer hover:underline">Support</li>
+                <li class="font-semibold text-base cursor-pointer hover:underline">Blog</li>
+                <li class="font-semibold text-base cursor-pointer hover:underline">Career</li>
+            </ul>
+
+            <!-- Login Button -->
+            <div class="bg-white rounded-full px-5 py-1 hover:text-blue-500 text-sm cursor-pointer hover:shadow-black">Login</div>
+        </div>
+    </div>
+
+    <!-- Hero-section -->
+    <div class="relative bg-[#3838ff] w-full h-[580px] overflow-x-hidden" loading="easy">
+
+        <!-- Content-box -->
+        <div class="w-[60%] mx-auto max-w-[1200px] flex flex-col items-center h-full z-30 gap-y-10 ">
+            <h2 class="text-6xl font-extrabold text-white mt-32 pacity-70">IMAGINE A PLACE...</h2>
+            <p class="text-white text-center font-semibold  opacity-80 size ">...where you can belong to a school club, a gaming group, or a worldwide art community. <br> Where just you and a handful of friends can spend time together. A place that makes it easy <br> to talk every day and hang out more often.</p>
+            <div class="flex flex-row gap-x-5 items-center z-30 ">
+                <div class="bg-white px-10 rounded-full py-3 hover:text-blue-600 cursor-pointer hover:shadow-2xl size"> <i class="fa fa-download pr-2"></i>
+                    Download for Windows
+                   
+                </div>
+                <div class="text-white bg-black px-10 py-3 rounded-full cursor-pointer size hover:shadow-2xl">Open Discord in your browser</div>
+            </div>
+        </div>
+
+        <!-- Image -1 -->
+        <img src="./images/Image0.svg" alt="" class="absolute bottom-0 left-0 scale-100 z-20">
+
+        <!-- Image-2 -->
+        <img src="./images/Image1.svg" alt="" width="550px" class="absolute -left-14 bottom-0 z-30">
+
+        <!-- Image-3 -->
+        <img src="./images/Image2.svg" alt="" width="550px" class="absolute -right-14 bottom-0 z-30">
+    </div>
+    
+    <!-- Section-1 -->
+    <div class="relative w-full overflow-x-hidden h-[680px] ">
+        <!-- Main Content -->
+        <div class="w-11/12 max-w-[1200px] mx-auto flex flex-row gap-x-5 mt-24 my-auto">
+
+            <!-- Left Part -->
+            <div class="w-[65%]">
+                <img  src="./images/section1Image.svg" alt="">
+            </div>
+            <!-- <div class="h-full bg-black w-4"></div> -->
+            <!-- Right Part -->
+            <div class="w-[50%] flex flex-col justify-center items-center gap-10 border-l-2 border-black pl-5">
+                <h1 class="text-5xl font-bold self-center leading-snug">Create an invite- <br> only place where <br> you belong</h1>
+                <p class="text-lg">Discord servers are organized into topic- <br> based channels where you can collaborate, <br> share, and just talk about your day without <br> clogging up a group chat.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section-2 -->
+    <div class="relative w-full overflow-x-hidden h-[680px] bg-gray-100">
+        <!-- Main Content -->
+        <div class="w-11/12 max-w-[1200px] mx-auto flex flex-row gap-x-5 mt-24 my-auto">
+
+            <!-- Left Part -->
+            <div class="w-[35%] flex flex-col gap-y-5 justify-center">
+                <h2 class="text-5xl font-bold leading-snug">Where hanging out is easy</h2>
+                <p class=" opacity-80 leading-normal size">Grab a seat in a voice channel when you are free. Friends in your server can see you are around and instantly pop in to talk without having to call.</p>
+            </div>
+            
+            <!-- Right Part -->
+            <div class="w-[65%] pl-14">
+                <img src="./images/section2Image.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Section-3 -->
+    <div class="relative w-full overflow-x-hidden h-[680px] ">
+        <!-- Main Content -->
+        <div class="w-11/12 max-w-[1200px] mx-auto flex flex-row gap-x-5 mt-24 my-auto">
+
+            <!-- Left Part -->
+            <div class="w-[65%]">
+                <img  src="./images/section3Image.svg" alt="">
+            </div>
+            <!-- <div class="h-full bg-black w-4"></div> -->
+            <!-- Right Part -->
+            <div class="w-[35%] flex flex-col justify-center items-center gap-10 border-black pl-5">
+                <h1 class="text-5xl font-bold self-center leading-snug">From few to a fandom</h1>
+                <p class="text-lg">Get any community running with moderation tools and custom member access. Give members special powers, set up private channels, and more.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section-4 -->
+    <div class=" relative w-full bg-gray-100">
+
+        <!-- Main Content -->
+        <div class=" relative w-11/12 max-w-[1200px] mx-auto flex flex-col gap-y-5 justify-center  mt-24 my-auto">
+            <h2 class="text-5xl font-extrabold text-center mt-28 ">RELIABLE TECH FOR STAYING CLOSE</h2>
+            <p class="size-2 max-w-[85%] text-center mx-auto opacity-80">Low-latency voice and video feels like you are in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.</p>
+            <img src="./images/section4Image.svg" alt="">
+            <img src="./images/section5Image.svg" alt="" width="40%" class="absolute pos">
+            <h3 class="size-3 font-bold text-center mt-20 font-serif">Ready to start your journey?</h3>
+            <img src="" alt="">
+            <div class="mb-20 mt-8 bg-sky-600 px-10 rounded-full py-3 hover:text-white w-fit cursor-pointer hover:shadow-2xl size mx-auto"> 
+                <i class="fa fa-download pr-2"></i>
+                Download for Windows               
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="relative bg-gray-900 w-full h-[580px]">
+        <!-- Main Section -->
+        <div class=" w-11/12 max-w-[1200px] mx-auto ">
+            <!-- This div is for grid -->
+            <div class="flex flex-row ">
+                <!-- First column -->
+                <div class="flex flex-col w-2/6">
+                    <div class="flex flex-col mt-24">
+                        <!-- For first row -->
+                        <div class="flex flex-row gap-x-2">
+                            <img src="flag.png" alt="" width="35px" height="12px">
+                            <h3 class="text-white small">English, USA</h3>
+                        </div>
+
+                        <!-- For second row -->
+                        <div class="flex flex-row gap-x-6 mt-10">
+                            <img src="twitter3.jpg" alt="" width="22px">
+                            <img src="insta.jpg" alt="" width="28px">
+                            <img src="facebook.png" alt="" width="22px">
+                            <img src="youtube.jpg" alt="" width="22px">
+                            <img src="tiktok.jpg" alt="" width="22px">
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <!-- Second column -->
+                <div class="flex flex-col items-center w-1/6 ">
+                    <div class="text-blue-600 mt-20">Product</div>
+
+                    <div class="text-white mt-12 hover:underline cursor-pointer">Download</div>
+                    <div class="text-white mt-3 hover:underline cursor-pointer">Nitro</div>
+                    <div class="text-white mt-3 hover:underline cursor-pointer">Status</div>
+                </div>
+
+                <!-- Third column -->
+                <div class="flex flex-col items-center w-1/6 ">
+                    <div class="text-blue-600 mt-20">Company</div>
+                    <div class="text-white mt-12 hover:underline cursor-pointer">About</div>
+                    <div class="text-white mt-3 hover:underline cursor-pointer">Job</div>
+                    <div class="text-white mt-3 hover:underline cursor-pointer">Brand</div>
+                    <div class="text-white mt-3 hover:underline cursor-pointer">Newsroom</div>
+                </div>
+
+                <!-- Fourth column -->
+                <div class="flex flex-col items-center w-1/6 ">
+                    <div class="text-blue-600 mt-20">Resources</div>
+                    <div class="text-white mt-12 hover:underline cursor-pointer">College</div>
+                    <div class="text-white mt-3 hover:underline cursor-pointer">Safety</div>
+                    <div class="text-white mt-3 hover:underline cursor-pointer">Blog</div>
+                    <div class="text-white mt-3 hover:underline cursor-pointer">Feedback</div>
+                    <div class="text-white mt-3 hover:underline cursor-pointer">Build</div>
+                    <div class="text-white mt-3 hover:underline cursor-pointer">StreamKit</div>
+                    <div class="text-white mt-3 hover:underline cursor-pointer">Creators</div>
+                    <div class="text-white mt-3 hover:underline cursor-pointer">Community</div>
+                </div>
+
+                <!-- Fifth Column -->
+                <div>
+                    <div class="flex flex-col items-center w-1/6 ">Policies</div>
+                    <div class="text-blue-600 mt-20 hover:underline cursor-pointer">Terms</div>
+                    <div class="text-white mt-12 hover:underline cursor-pointer">Privacy</div>
+                    <div class="text-white mt-3 hover:underline cursor-pointer">Cookie Setting</div>
+                    <div class="text-white mt-3 hover:underline cursor-pointer">Guidlines</div>
+                    <div class="text-white mt-3 hover:underline cursor-pointer">Acknowledgement</div>
+                    <div class="text-white mt-3 hover:underline cursor-pointer">Licenses</div>
+                    <div class="text-white mt-3 hover:underline cursor-pointer" >Moderation</div>
+                </div>
+            </div>
+
+            <div class="w-full bg-blue-600 ht mt-5"></div>
+
+            <img src="./images/logo.svg" alt="" class="absolute bottom-16 ">
+            <div class="text-white bg-sky-600 rounded-full w-fit absolute bottom-16 right-32 px-4 py-2">Sign Up</div>
+        </div>
+
+    </div>
+
+</body>
+</html>
