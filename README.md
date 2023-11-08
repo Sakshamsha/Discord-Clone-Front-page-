@@ -1,0 +1,1 @@
+# This project is the clone of Discord (front Page).It is created by usage of HTML and CSS framework i.e Tailwind.
